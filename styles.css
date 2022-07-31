@@ -104,7 +104,6 @@ main {
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    background-color: rgba(128, 128, 128, 0.155);
 }
 
 .content section {
