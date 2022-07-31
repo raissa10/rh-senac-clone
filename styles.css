@@ -162,9 +162,13 @@ main {
 }
 
 .content-main .header-card span strong {
-    padding-left: 10px;
     text-transform: uppercase;
     color: #3598dc;
+}
+
+.header-card {
+    margin-left: 20px;
+    border-bottom: 1px solid rgba(182, 179, 207, 0.792);
 }
 
 .content-main .header-card span span {
