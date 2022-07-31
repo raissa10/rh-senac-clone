@@ -24,7 +24,6 @@ header {
     font-size: 15px;
     border: 1px solid white;
     max-height: 50px;
-    /* altura da borda */
     border-top-width: 25px;
 }
 
@@ -128,9 +127,7 @@ main {
     flex-direction: column;
     justify-content: center;
     align-items: flex-end;
-    /* border: 1px solid black; */
     padding-right: 10px;
-    /* Fonte */
     color: #fff;
     font-size: 12px;
     font-weight: 300;
