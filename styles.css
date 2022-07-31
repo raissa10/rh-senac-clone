@@ -247,13 +247,13 @@ main {
     margin-left: 20px;
 }
 
-
-/* .footer-card-detalhe-folhas {
-    margin-left: 20px;
-} */
+table {
+    width: 72vw;
+}
 
 tr {
-    padding: 200px;
+    display: flex;
+    justify-content: space-around;
 }
 
 footer {
