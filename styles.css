@@ -1,9 +1,14 @@
+:root {
+    /* --background-color: rgba(177, 180, 183, 0.073); */
+    --background-color: rgba(177, 180, 183, 0.259);
+}
+
 body {
-    background-color: aliceblue;
+    background-color: var(--background-color);
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    color: aliceblue;
+    color: var(--background-color);
     font-family: Open Sans, sans-serif;
 }
 
@@ -14,6 +19,7 @@ header {
     align-items: center;
     width: 100vw;
     height: 50px;
+    color: #fff;
 }
 
 .empresa {
@@ -56,12 +62,12 @@ header {
     border-radius: 15px;
     padding: 3px;
     font-size: 14px;
-    font-weight: bold;
+    font-weight: lighter;
 }
 
 main {
     display: flex;
-    background-color: aliceblue;
+    background-color: var(--background-color);
     color: black;
     height: 90vh;
 }
@@ -69,7 +75,7 @@ main {
 .lateral {
     background-color: #3d3d3d;
     max-width: 500px;
-    color: aliceblue;
+    color: var(--background-color);
     width: 20vw;
     display: flex;
     align-items: center;
@@ -86,15 +92,21 @@ main {
     list-style: none;
     border-bottom: 0.1px solid rgba(240, 248, 255, 0.307);
     padding: 8px 0;
-    width: 100vw;
+    width: 18vw;
     font-size: 11px;
     padding-left: 20px;
     color: rgba(255, 255, 255, 0.662);
+    cursor: pointer;
+}
+
+.lateral ul li:hover {
+    background-color: #fff;
+    transition: all .4s ease-in-out;
+    color: black;
 }
 
 .selected {
     background-color: tomato;
-    max-width: 164px;
 }
 
 .content {
@@ -108,8 +120,6 @@ main {
 
 .content section {
     width: 75vw;
-    border: 1px solid white;
-    background-color: #fff;
 }
 
 .header-main {
@@ -118,6 +128,7 @@ main {
     display: flex;
     justify-content: space-between;
     width: 100vw;
+    background-color: var(--background-color);
 }
 
 .card {
@@ -155,6 +166,7 @@ main {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    background-color: #fff;
 }
 
 .content-main .header-card span strong {
@@ -185,7 +197,7 @@ main {
 
 .footer-main {
     height: 200px;
-    background-color: tomato;
+    background-color: #fff;
 }
 
 .green {
@@ -261,11 +273,13 @@ footer {
     position: fixed;
     display: flex;
     align-content: space-around;
-    justify-content: space-evenly;
+    justify-content: space-around;
     width: 100vw;
     gap: 5px;
     background-color: #3d3d3d;
     padding: 10px 0;
     font-stretch: condensed;
     font-size: 11px;
+    color: #fff;
+    border-top: 0.1px solid rgba(128, 128, 128, 0.501);
 }
