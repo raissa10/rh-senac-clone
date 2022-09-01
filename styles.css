@@ -1,5 +1,4 @@
 :root {
-    /* --background-color: rgba(177, 180, 183, 0.073); */
     --background-color: rgba(177, 180, 183, 0.259);
 }
 
@@ -34,7 +33,7 @@ header {
 }
 
 .setor-empresa {
-    font-size: 20px;
+    font-size: 27px;
 }
 
 .logo {
@@ -45,6 +44,7 @@ header {
     align-items: center;
     width: 200px;
     display: flex;
+    gap: 5px;
 }
 
 .colaborator {
@@ -196,7 +196,7 @@ main {
 }
 
 .footer-main {
-    height: 200px;
+    height: 280px;
     background-color: #fff;
 }
 
@@ -259,11 +259,11 @@ main {
     margin-left: 20px;
 }
 
-table {
+.table-consulta-folhas {
     width: 72vw;
 }
 
-tr {
+.table-consulta-folhas tr {
     display: flex;
     justify-content: space-around;
 }
